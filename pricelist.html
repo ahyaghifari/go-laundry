@@ -36,7 +36,7 @@
         <a href="" class="flex items-center p-2 hover:bg-teal hover:text-yellow group transition ease-in-out duration-300"><span class="material-symbols-rounded text-teal mr-1 group-hover:text-yellow ransition ease-in-out duration-300">
             home
         </span> Home</a>
-        <a href="" class="flex items-center p-2 hover:bg-teal hover:text-yellow group transition ease-in-out duration-300"><span class="material-symbols-rounded text-teal mr-1 group-hover:text-yellow ransition ease-in-out duration-300">
+        <a href="order.html" class="flex items-center p-2 hover:bg-teal hover:text-yellow group transition ease-in-out duration-300"><span class="material-symbols-rounded text-teal mr-1 group-hover:text-yellow ransition ease-in-out duration-300">
             list_alt
         </span> Pesanan</a>
         <a href="" class="flex items-center p-2 hover:bg-teal hover:text-yellow group transition ease-in-out duration-300"><span class="material-symbols-rounded text-teal mr-1 group-hover:text-yellow ransition ease-in-out duration-300">
@@ -50,13 +50,18 @@
     <main class="mt-10 px-3 min-h-screen">
         <h1 class="home-title font-ltfunk text-3xl bg-white px-2 py-3 rounded-xl text-teal shadow-lg">Daftar Harga</h1>
     
-        <div id="pricelist-container" class="bg-yellow overflow-auto px-1 -translate-y-2 py-5 rounded-b-lg">
+
+        <div id="pricelist-header" class="py-3 flex justify-end">
+            <a href="create-pricelist.html" class="bg-white text-teal p-2 rounded-lg text-sm">Buat List Baru</a>
+        </div>
+
+        <div id="pricelist-container" class="bg-yellow overflow-auto px-1 py-5 rounded-lg">
             
             <table class="table-fixed border-collapse border border-yellow text-sm w-full">
-                <thead class="bg-teal text-yellow font-ltfunk">
-                    <tr class="bg-teal text-lg">
+                <thead class="font-ltfunk">
+                    <tr class="bg-teal text-white text-lg">
                         <th class="w-[30px]">No.</th>
-                        <th class="w-[60px] ">Kode</th>
+                        <th class="w-[60px]">Kode</th>
                         <th class="w-[220px] sticky left-0 bg-teal">Nama</th>
                         <th class="w-[150px]">Harga</th>
                         <th class="w-[70px]">Satuan</th>
